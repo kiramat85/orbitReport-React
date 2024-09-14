@@ -27,7 +27,7 @@ function App() {
       <Banner />
       <Buttons
         filterByType={filterByType}
-        setSat={handleShowAllOrbits} // Corrected function
+        setSat={handleShowAllOrbits}
         displaySats={displaySats}
       />
       <Table sat={sat} />
